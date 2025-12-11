@@ -12,3 +12,4 @@ D:\ClassLesson\obj\Debug\net9.0\refint\ClassLesson.dll
 D:\ClassLesson\obj\Debug\net9.0\ClassLesson.pdb
 D:\ClassLesson\obj\Debug\net9.0\ClassLesson.genruntimeconfig.cache
 D:\ClassLesson\obj\Debug\net9.0\ref\ClassLesson.dll
+D:\ClassLesson\obj\Debug\net9.0\ClassLesson.sourcelink.json

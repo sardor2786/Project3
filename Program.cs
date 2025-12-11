@@ -56,17 +56,17 @@ private static void Main(string[] args)
 
 public class Triangle
 {
-    public double a{get;set;}
+    public double a{get;set;}   // uchburchakning tomonlari
     public double b{get;set;}
     public double c{get;set;}
    
     
-    public double Yuzasi()
+    public double Yuzasi()    // yuzasini chiqaruvcji metod
     {
         double p=(a+b+c)/2;
-      return Math.Sqrt(p*(p-a)*(p-b)*(p-c));
+      return Math.Sqrt(p*(p-a)*(p-b)*(p-c));  
     }
-    public double Perimetri()
+    public double Perimetri()  // perimetrini chiqaruvchi metod
     {
         return a+b+c;
     }
@@ -87,8 +87,8 @@ public class Circle
 }
 public class Rectangle
 {
-    public double a{get;set;}
-    public double b{get;set;}
+    public double a{get;set;} //fields
+    public double b{get;set;} //fields
     public double Yuzasi()
     {
         return a*b;
@@ -99,4 +99,16 @@ public class Rectangle
     }
 
 }
+public class Square
+    {
+        public double a{get;set;}
+        public double Yuzasi()
+        {
+            return Math.Pow(a,2);
+        }
+        public double Perimetri()
+        {
+            return 4*a;
+        }
+    }
 }
